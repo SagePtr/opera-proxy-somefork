@@ -14,3 +14,5 @@ require (
 )
 
 require github.com/hashicorp/errwrap v1.1.0 // indirect
+
+replace github.com/Snawoot/go-http-digest-auth-client => ./pkg/go-http-digest-auth-client
